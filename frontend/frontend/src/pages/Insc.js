@@ -57,8 +57,9 @@ const Insc = () => {
 
   return (
     <div className="insc-container">
-      <h2>Register</h2>
+     
       <form onSubmit={handleSubmit}>
+      <h2>Register</h2>
         {/* First Name */}
         <label>First Name:</label>
         <input

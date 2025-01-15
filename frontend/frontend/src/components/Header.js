@@ -3,8 +3,7 @@ import React from 'react';
 const Header = () => {
   return (
     <header className="header">
-      <h1>Book Club</h1>
-      <p>Welcome to the Book Club! Manage your books here.</p>
+      <h1>Welcome to Book Club !</h1>
     </header>
   );
 };

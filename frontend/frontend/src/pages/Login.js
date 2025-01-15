@@ -33,8 +33,9 @@ const Login = () => {
 
   return (
     <div className="login-container">
-      <h2>Login</h2>
+      
       <form onSubmit={handleSubmit}>
+      <h2>Login</h2>
         <label>Email:</label>
         <input
           type="email"
@@ -52,13 +53,15 @@ const Login = () => {
         {errors.password && <p className="error">{errors.password}</p>}
         
         <button type="submit" >Login</button>
-      </form>
+      
       
       {/* Link to Registration Page */}
       <p>
         Don't have an account? <Link to="/Insc">Register here</Link>
       </p>
+      </form>
     </div>
+  
   );
 };
 

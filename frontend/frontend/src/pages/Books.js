@@ -37,7 +37,7 @@ const Books = () => {
 
   return (
     <div className="books-container">
-      <h2>Add a New Book</h2>
+      <h2><br></br>Add a New Book</h2>
       <form onSubmit={handleAddBook}>
         <div className="input-group">
           <label>Title:</label>
@@ -65,7 +65,7 @@ const Books = () => {
         <h3>Book List</h3>
         {books.length === 0 ? (
           <p>No books added yet.</p>
-        ) : (
+        ) : ( 
           <ul>
             {books.map((book, index) => (
               <li key={index}>

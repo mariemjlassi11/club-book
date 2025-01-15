@@ -3,10 +3,12 @@ body {
   background-color: #f0f4f8;
   margin: 0;
   padding: 0;
+  background-image: url("book2.jpg");
+  background-size: cover;
 }
 
 .navbar {
-  background-color: #155E95;
+  background-image: url("paper.jpg");
   padding: 10px;
 }
 
@@ -22,9 +24,10 @@ body {
 }
 
 .navbar a {
-  color: white;
+  color: #664343;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 22px;
+
 }
 
 .navbar a:hover {
@@ -32,16 +35,29 @@ body {
 }
 
 .header {
-  background-color: #155E95;
-  color: white;
-  padding: 20px;
+  margin-top: -25px;
+  background-image: url("paper.jpg");
+  color: #664343;
+  padding: -20px;
   text-align: center;
 }
 
 .header h1 {
-  margin: 0;
+  
+  border-top: 3.5px solid #BC9F8B;
+  display: inline-block;
+  padding-top: 22px;
+  width: 200%;
+  margin-left: -755px;
+  border-bottom: 3.5px solid #BC9F8B;
+  padding-bottom: 22px;
+
+
+
 }
 
 .header p {
   margin-top: 10px;
+  
 }
+

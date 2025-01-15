@@ -15,7 +15,7 @@ const AppRoutes = () => {
 
   return (
     <div className="App">
-      {showNavbar && <Navbar />} {/* Render Navbar only if not on /login or /insc */}
+      <Navbar /> {/* Render Navbar only if not on /login or /insc */}
       <Header />  {/* Header is always visible */}
       <Routes>
         <Route path="/login" element={<Login />} />
